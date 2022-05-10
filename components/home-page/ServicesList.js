@@ -1,3 +1,7 @@
 export const ServicesList = () => {
-   return <div>ServicesList</div>;
+   return (
+      <div style={{ backgroundColor: 'orange', height: '200px' }}>
+         ServicesList
+      </div>
+   );
 };

@@ -1,5 +1,5 @@
 import { createGlobalStyle, css } from 'styled-components';
-import { typography } from '.';
+import { breakpoints, typography } from '.';
 
 const bodyStyles = css`
    font-family: ${typography.type.primary};
@@ -29,15 +29,20 @@ const bodyStyles = css`
    h4,
    h5,
    h6 {
-      font-weight: ${typography.weight.bold};
+      font-weight: ${typography.weight.semibold};
       letter-spacing: 0.5px;
-      line-height: 1.5;
+      line-height: 1;
       margin-bottom: 1rem;
       color: ${(props) => props.theme.dark};
    }
 
    p {
+      font-size: 0.9rem;
       margin-bottom: 1rem;
+
+      @media screen and (min-width: ${breakpoints.tablet}) {
+         font-size: 1rem;
+      }
    }
 
    img {
@@ -56,6 +61,11 @@ const bodyStyles = css`
    .container {
       width: 90%;
       margin: auto;
+
+      @media screen and (min-width: ${breakpoints.desktop}) {
+         width: 80%;
+         max-width: 1110px;
+      }
    }
 `;
 

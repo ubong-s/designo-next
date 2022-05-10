@@ -1,9 +1,10 @@
 import { ThemeProvider } from 'styled-components';
 
 export const colors = {
-   primaryOrange: '#FDF3F0',
+   primaryPink: '#e7816b',
    white: '#FFFFFF',
    dark: '#1D1D1F',
+   gray: '#8e8e8f',
 };
 
 export const typography = {

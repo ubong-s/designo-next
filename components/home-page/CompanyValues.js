@@ -1,3 +1,7 @@
 export const CompanyValues = () => {
-   return <div>CompanyValues</div>;
+   return (
+      <div style={{ backgroundColor: 'green', height: '200px' }}>
+         CompanyValues
+      </div>
+   );
 };

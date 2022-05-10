@@ -1,6 +1,9 @@
 // Shared
-export { Layout } from './shared/Layout';
+export { Button } from './shared/Button';
 export { Footer } from './shared/Footer';
+export { Layout } from './shared/Layout';
+export { Logo } from './shared/Logo';
+
 export { Header } from './shared/Header';
 export { LocationsGrid } from './shared/LocationsGrid';
 export { CallToAction } from './shared/CallToAction';
