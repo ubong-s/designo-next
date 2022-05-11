@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { typography } from '../../styles';
 
 export const Button = ({ text }) => {
    return <ButtonWrap>{text}</ButtonWrap>;
@@ -7,6 +8,7 @@ export const Button = ({ text }) => {
 const ButtonWrap = styled.button`
    background: ${(props) => props.theme.primaryPink};
    background: ${(props) => props.theme.white};
+   font-weight: ${typography.weight.medium};
    text-transform: uppercase;
    font-size: 1.1rem;
    padding: 1rem;

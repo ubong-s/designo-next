@@ -46,16 +46,22 @@ const CallToActionInner = styled.div`
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: ${(props) => props.theme.primaryPink};
-   padding: 0 2.25rem;
+   background-color: ${(props) => props.theme.primaryPink};
+   padding: 0 1.5rem;
    height: 380px;
    border-radius: 15px;
+   background-image: url('/assets/shared/desktop/bg-pattern-call-to-action.svg');
+   background-repeat: no-repeat;
+   background-position: right center;
+
+   /* background-size: cover; */
 
    & > div {
       margin-bottom: 1.25rem;
 
       p {
          color: ${(props) => props.theme.white};
+         font-size: 0.9rem;
       }
 
       h2 {
@@ -67,6 +73,7 @@ const CallToActionInner = styled.div`
    @media screen and (min-width: ${breakpoints.tablet}) {
       padding: 0 8rem;
       height: 350px;
+      background-position: center center;
 
       & > div {
          margin-bottom: 0.5rem;
@@ -85,6 +92,7 @@ const CallToActionInner = styled.div`
       height: 290px;
       padding: 0 6rem;
       margin: auto;
+      background-position: center right;
 
       a {
          justify-self: flex-end;
