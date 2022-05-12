@@ -6,7 +6,7 @@ import {
    LocationsGrid,
 } from '../components';
 
-export const About = () => {
+const About = () => {
    return (
       <div>
          <Head>
@@ -24,3 +24,5 @@ export const About = () => {
       </div>
    );
 };
+
+export default About;

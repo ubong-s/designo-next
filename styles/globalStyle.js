@@ -29,7 +29,7 @@ const bodyStyles = css`
    h4,
    h5,
    h6 {
-      font-weight: ${typography.weight.semibold};
+      font-weight: ${typography.weight.medium};
       letter-spacing: 0.5px;
       line-height: 1;
       margin-bottom: 1rem;

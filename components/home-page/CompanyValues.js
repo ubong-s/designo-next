@@ -142,6 +142,12 @@ const ValueCard = styled.div`
       gap: 3rem;
       align-items: center;
       text-align: left;
+
+      .info {
+         h3 {
+            margin-bottom: 1.5rem;
+         }
+      }
    }
 
    @media screen and (min-width: ${breakpoints.desktop}) {

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { MapInfo } from '../components';
 
-export const Locations = () => {
+const Locations = () => {
    return (
       <div>
          <Head>
@@ -17,3 +17,5 @@ export const Locations = () => {
       </div>
    );
 };
+
+export default Locations;

@@ -11,7 +11,7 @@ const ButtonWrap = styled.button`
    font-weight: ${typography.weight.medium};
    text-transform: uppercase;
    font-size: 1.1rem;
-   padding: 1rem;
+   padding: 1rem 1.25rem;
    outline: none;
    border: none;
    border-radius: 10px;

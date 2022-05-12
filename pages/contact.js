@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { ContactIntro, LocationsGrid } from '../components';
 
-export const Contact = () => {
+const Contact = () => {
    return (
       <div>
          <Head>
@@ -16,3 +16,5 @@ export const Contact = () => {
       </div>
    );
 };
+
+export default Contact;

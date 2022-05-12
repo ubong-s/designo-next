@@ -23,7 +23,8 @@ export const breakpoints = {
    mobile: '375px',
    tablet: '768px',
    desktop: '1024px',
-   hd: '1280px',
+   large: '1100px',
+   hd: '1440px',
 };
 
 export const Theme = ({ children }) => (
