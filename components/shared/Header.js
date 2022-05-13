@@ -15,7 +15,7 @@ export const Header = () => {
             <Logo link='/assets/shared/desktop/logo-dark.png' />
             <MenuLinks className={menuOpen && 'active'}>
                {navLinks.map((link) => (
-                  <li key={link.id}>
+                  <li key={link.id} onClick={() => setMenuOpen(false)}>
                      <Link href={link.address}>
                         <a>{link.title}</a>
                      </Link>
@@ -81,6 +81,7 @@ const MenuLinks = styled.ul`
    transform: translateX(-100%);
    transition: all 0.3s ease-in-out;
    opacity: 0;
+   z-index: 3;
 
    &.active {
       transform: translateX(0);

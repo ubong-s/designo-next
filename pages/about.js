@@ -5,6 +5,7 @@ import {
    ImageText,
    LocationsGrid,
 } from '../components';
+import { TheRealDealData, WorldClassTalentData } from '../data/aboutPageData';
 
 const About = () => {
    return (
@@ -17,9 +18,9 @@ const About = () => {
             />
          </Head>
          <AboutIntro />
-         <ImageText />
+         <ImageText {...WorldClassTalentData} />
          <LocationsGrid />
-         <ImageText />
+         <ImageText {...TheRealDealData} altDir='true' />
          <CallToAction />
       </div>
    );

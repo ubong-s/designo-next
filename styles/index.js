@@ -2,6 +2,7 @@ import { ThemeProvider } from 'styled-components';
 
 export const colors = {
    primaryPink: '#e7816b',
+   lightPink: '#FDF3F0',
    white: '#FFFFFF',
    dark: '#1D1D1F',
    gray: '#8e8e8f',
