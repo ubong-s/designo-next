@@ -20,7 +20,7 @@ export const CallToAction = () => {
             </div>
             <Link href='/contact'>
                <a>
-                  <Button text='Get in touch' />
+                  <Button text='Get in touch' alternate='true' />
                </a>
             </Link>
          </CallToActionInner>

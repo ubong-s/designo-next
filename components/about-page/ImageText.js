@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export const ImageText = ({ title, description, images, altDir }) => {
    return (
-      <ImageTextWrap>
+      <ImageTextWrap className={altDir && 'alt-dir'}>
          <ImageTextInner className={altDir && 'alt-dir'}>
             <ImageWrap>
                {images && (
@@ -57,7 +57,13 @@ const ImageTextWrap = styled.section`
       width: 80%;
       margin: auto;
       max-width: 1110px;
-      padding: 8rem 0;
+      padding-top: 10rem;
+      padding-bottom: unset;
+
+      &.alt-dir {
+         padding-top: unset;
+         padding-bottom: 8rem;
+      }
    }
 `;
 

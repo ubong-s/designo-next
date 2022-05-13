@@ -117,7 +117,6 @@ const ValueCard = styled.div`
 
    &:nth-child(3) {
       .image {
-         /* background-color: blue; */
          .circle {
             transform: translate(-50%, -50%) rotate(0.2turn);
          }

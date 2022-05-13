@@ -27,7 +27,7 @@ export const Hero = () => {
                </p>
                <Link href='/about'>
                   <a>
-                     <Button text='Learn More' />
+                     <Button text='Learn More' alternate='true' />
                   </a>
                </Link>
             </HeroContent>

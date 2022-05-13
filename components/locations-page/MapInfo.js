@@ -1,3 +1,7 @@
+import styled from 'styled-components';
+
 export const MapInfo = () => {
-   return <div>MapInfo</div>;
+   return <MapInfoWrap>MapInfo</MapInfoWrap>;
 };
+
+const MapInfoWrap = styled.section``;

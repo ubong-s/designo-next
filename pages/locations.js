@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { MapInfo } from '../components';
+import { CallToAction, MapInfo } from '../components';
 
 const Locations = () => {
    return (
@@ -14,6 +14,7 @@ const Locations = () => {
          <MapInfo />
          <MapInfo />
          <MapInfo />
+         <CallToAction />
       </div>
    );
 };
