@@ -7,6 +7,9 @@ export { Logo } from './shared/Logo';
 export { Header } from './shared/Header';
 export { LocationsGrid } from './shared/LocationsGrid';
 export { CallToAction } from './shared/CallToAction';
+export { ServicesHeader } from './shared/ServicesHeader';
+export { ProjectsListing } from './shared/ProjectsListing';
+export { ProjectCard } from './shared/ProjectCard';
 
 // HomePage
 export { CompanyValues } from './home-page/CompanyValues';

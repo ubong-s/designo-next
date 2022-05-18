@@ -9,7 +9,7 @@ import { TheRealDealData, WorldClassTalentData } from '../data/aboutPageData';
 
 const About = () => {
    return (
-      <div>
+      <>
          <Head>
             <title>About Us | Designo</title>
             <meta
@@ -22,7 +22,7 @@ const About = () => {
          <LocationsGrid />
          <ImageText {...TheRealDealData} altDir='true' />
          <CallToAction />
-      </div>
+      </>
    );
 };
 

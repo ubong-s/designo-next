@@ -3,7 +3,7 @@ import { CallToAction, MapInfo } from '../components';
 
 const Locations = () => {
    return (
-      <div>
+      <>
          <Head>
             <title>Contact Us | Designo</title>
             <meta
@@ -15,7 +15,7 @@ const Locations = () => {
          <MapInfo />
          <MapInfo />
          <CallToAction />
-      </div>
+      </>
    );
 };
 

@@ -3,7 +3,7 @@ import { ContactIntro, LocationsGrid } from '../components';
 
 const Contact = () => {
    return (
-      <div>
+      <>
          <Head>
             <title>Contact Us | Designo</title>
             <meta
@@ -13,7 +13,7 @@ const Contact = () => {
          </Head>
          <ContactIntro />
          <LocationsGrid />
-      </div>
+      </>
    );
 };
 

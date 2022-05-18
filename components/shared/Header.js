@@ -12,7 +12,10 @@ export const Header = () => {
    return (
       <HeaderWrap>
          <HeaderNav className='container'>
-            <Logo link='/assets/shared/desktop/logo-dark.png' />
+            <Logo
+               link='/assets/shared/desktop/logo-dark.png'
+               click={() => setMenuOpen(false)}
+            />
             <MenuLinks className={menuOpen && 'active'}>
                {navLinks.map((link) => (
                   <li key={link.id} onClick={() => setMenuOpen(false)}>

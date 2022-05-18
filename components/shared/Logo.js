@@ -3,9 +3,9 @@ import Image from 'next/image';
 import styled from 'styled-components';
 import { breakpoints } from '../../styles';
 
-export const Logo = ({ link }) => {
+export const Logo = ({ link, click }) => {
    return (
-      <LogoWrap className='logo'>
+      <LogoWrap className='logo' onClick={click ? click : null}>
          <Link href='/'>
             <a>
                <Image src={link} alt='designo' width={404} height={54} />
