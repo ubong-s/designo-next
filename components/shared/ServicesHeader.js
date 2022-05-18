@@ -16,12 +16,17 @@ export const ServicesHeader = ({ title, desc }) => {
 
 const ServicesHeaderWrap = styled.section`
    height: 300px;
-
    background-color: ${(props) => props.theme.primaryPink};
+   background-image: url('/assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg');
+   background-repeat: no-repeat;
+   background-position: right center;
 
    @media screen and (min-width: ${breakpoints.tablet}) {
       height: 250px;
       background-color: transparent;
+      background-image: unset;
+      background-repeat: unset;
+      background-position: unset;
    }
 `;
 const ServicesHeaderInner = styled.div`

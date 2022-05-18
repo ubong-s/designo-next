@@ -5,7 +5,7 @@ const Locations = () => {
    return (
       <>
          <Head>
-            <title>Contact Us | Designo</title>
+            <title>Locations | Designo</title>
             <meta
                name='description'
                content='Ready to take it to the next level? Visit any of out locations'

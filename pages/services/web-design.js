@@ -3,6 +3,7 @@ import {
    CallToAction,
    ProjectsListing,
    ServicesHeader,
+   OtherServicesGrid,
 } from '../../components';
 import { webDesignData } from '../../data/webDesignData';
 
@@ -16,6 +17,7 @@ const WebDesign = () => {
          </Head>
          <ServicesHeader title={name} desc={excerpt} />
          <ProjectsListing projects={projects} />
+         <OtherServicesGrid />
          <CallToAction />
       </>
    );

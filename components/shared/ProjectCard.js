@@ -59,7 +59,7 @@ const ProjectCardWrap = styled.article`
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       max-width: unset;
-      height: 400px;
+      height: 350px;
 
       .info {
          display: flex;

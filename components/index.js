@@ -10,6 +10,8 @@ export { CallToAction } from './shared/CallToAction';
 export { ServicesHeader } from './shared/ServicesHeader';
 export { ProjectsListing } from './shared/ProjectsListing';
 export { ProjectCard } from './shared/ProjectCard';
+export { OtherServicesGrid } from './shared/OtherServicesGrid';
+export { ServiceCard } from './shared/ServiceCard';
 
 // HomePage
 export { CompanyValues } from './home-page/CompanyValues';
