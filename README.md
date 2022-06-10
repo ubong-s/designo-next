@@ -21,9 +21,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop_full.jpg)
+![](./screenshots/desktop-full.jpg)
 
-[All Screenshots]('./screenshots')
+[All Screenshots](./screenshots)
 
 ### Links
 
