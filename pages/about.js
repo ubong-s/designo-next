@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { motion } from 'framer-motion';
 import {
    AboutIntro,
    CallToAction,
@@ -6,10 +7,16 @@ import {
    LocationsGrid,
 } from '../components';
 import { TheRealDealData, WorldClassTalentData } from '../data/aboutPageData';
+import { fadeIn } from '../utils/animation';
 
 const About = () => {
    return (
-      <>
+      <motion.div
+         variants={fadeIn}
+         initial='initial'
+         animate='animate'
+         exit='exit'
+      >
          <Head>
             <title>About Us | Designo</title>
             <meta
@@ -22,7 +29,7 @@ const About = () => {
          <LocationsGrid />
          <ImageText {...TheRealDealData} altDir='true' />
          <CallToAction />
-      </>
+      </motion.div>
    );
 };
 

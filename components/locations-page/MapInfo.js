@@ -4,6 +4,7 @@ import Info from './Info';
 import Map from './Map';
 
 const MapInfo = ({
+   id,
    location,
    locationSubtitle,
    address,
@@ -13,7 +14,7 @@ const MapInfo = ({
 }) => {
    return (
       <>
-         <MapInfoWrap>
+         <MapInfoWrap id={id}>
             <Map position={position} address={address} />
             <Info
                location={location}

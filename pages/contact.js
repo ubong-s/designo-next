@@ -1,9 +1,16 @@
 import Head from 'next/head';
+import { motion } from 'framer-motion';
 import { ContactIntro, LocationsGrid } from '../components';
+import { fadeIn } from '../utils/animation';
 
 const Contact = () => {
    return (
-      <>
+      <motion.div
+         variants={fadeIn}
+         initial='initial'
+         animate='animate'
+         exit='exit'
+      >
          <Head>
             <title>Contact Us | Designo</title>
             <meta
@@ -13,7 +20,7 @@ const Contact = () => {
          </Head>
          <ContactIntro />
          <LocationsGrid />
-      </>
+      </motion.div>
    );
 };
 

@@ -1,6 +1,6 @@
 export const locationsData = [
    {
-      id: '1',
+      id: 'canada',
       location: 'Canada',
       locationSubtitle: 'Designo Central Office',
       address: `3886 Wellington Street <br /> Toronto Ontario M9C 3J5`,
@@ -9,7 +9,7 @@ export const locationsData = [
       position: [43.64423366610588, -79.39450721603112],
    },
    {
-      id: 2,
+      id: 'australia',
       location: 'Australia',
       locationSubtitle: 'Designo AU Office',
       address: `19 Balonne Street <br /> New South Wales 2443`,
@@ -18,7 +18,7 @@ export const locationsData = [
       position: [-30.329185491180127, 149.78820771072756],
    },
    {
-      id: 3,
+      id: 'united-kingdom',
       location: 'United kingdom',
       locationSubtitle: 'Designo UK Office',
       address: `13 Colorado Way <br /> Rhyd-y-fro SA8 9GA`,
