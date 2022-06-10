@@ -24,7 +24,7 @@ const FooterWrap = styled.footer`
    text-align: center;
 
    &.no-cta {
-      padding: unset;
+      padding: 6rem 0;
    }
 
    @media screen and (min-width: ${breakpoints.tablet}) {

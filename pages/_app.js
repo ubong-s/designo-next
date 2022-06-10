@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Theme>
          <Layout>
             <AnimatePresence exitBeforeEnter>
-               <Component {...pageProps} key={router.pathname} />
+               <Component {...pageProps} key={router.asPath} />
             </AnimatePresence>
          </Layout>
       </Theme>

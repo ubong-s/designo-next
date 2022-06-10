@@ -12,6 +12,7 @@ const Locations = () => {
          ssr: false,
       }
    );
+
    return (
       <motion.div
          variants={fadeIn}
