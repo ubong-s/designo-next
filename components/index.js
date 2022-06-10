@@ -23,7 +23,6 @@ export { AboutIntro } from './about-page/AboutIntro';
 export { ImageText } from './about-page/ImageText';
 
 // LocationsPage
-export { MapInfo } from './locations-page/MapInfo';
 
 // ContactPage
 export { ContactIntro } from './contact-page/ContactIntro';

@@ -84,7 +84,7 @@ const MenuLinks = styled.ul`
    transform: translateX(-100%);
    transition: all 0.3s ease-in-out;
    opacity: 0;
-   z-index: 3;
+   z-index: 9999;
 
    &.active {
       transform: translateX(0);

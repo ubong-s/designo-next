@@ -67,6 +67,14 @@ const bodyStyles = css`
          max-width: 1110px;
       }
    }
+
+   .leaflet-div-icon {
+      background-color: transparent;
+      border: transparent;
+
+      width: 48px !important;
+      height: 48px !important;
+   }
 `;
 
 export const GlobalStyle = createGlobalStyle`

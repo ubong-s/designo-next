@@ -37,7 +37,7 @@ const LocationsGridWrap = styled.section`
    padding: 6rem 0;
 
    @media screen and (min-width: ${breakpoints.tablet}) {
-      padding: 3rem 0;
+      padding: 8rem 0;
    }
 
    @media screen and (min-width: ${breakpoints.desktop}) {
